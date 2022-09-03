@@ -1,5 +1,5 @@
 //1 task
-for (let i = 10; i <= 50; i++) {
+for (let i = 10; i <= 50; i += 2) {
   console.log(i);
 }
 
@@ -56,11 +56,11 @@ let result =
 console.log(result);
 
 // 4 task
-function myName (firstName, lastName) {
+function showFullNameInConsole (firstName, lastName) {
     const fullName = `${firstName} ${lastName}`;
     console.log(fullName);
 }
-myName('Pavel', 'Serikov');
+showFullNameInConsole('Pavel', 'Serikov');
 
 // 5 task
 let firstNum = 21; 
