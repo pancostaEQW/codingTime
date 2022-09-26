@@ -1,0 +1,30 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+.gameover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: bisque;
+    display: none;
+}
+.over {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin-left: -150px;
+    margin-top: -120px;
+}
